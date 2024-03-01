@@ -1,0 +1,169 @@
+
+ .navbar-nav li.nav-item a.nav-link:hover {
+    color: #06BACA;
+}
+
+
+ .btn-2{
+    height:5vh;
+    width: 15%;
+    border: none;
+    color: white ;
+    font-weight: bold ;
+margin-bottom: 3vh;
+}
+.btn-1{
+    height:5vh;
+    width: 15%;
+    font-weight: bold;
+    border: none;
+
+} 
+.text{
+margin-left: 15%;
+margin-top: 20%;
+
+}
+.p-3{
+    margin: 1vh;
+    background-color: #cbf0f4;
+}
+.p-3:hover {
+    background-color: #06BACA;
+    cursor: pointer;
+}
+
+#images {
+    transition: transform 0.1s; /* Animation */
+}
+
+#images:hover {
+    transform: scale(1.1); /* 150% zoom - Note: if the zoom is too large, it will go outside of the viewport */
+}
+.card-title{
+    text-align: center;
+}
+.fa-star {
+	color: gray;
+	cursor: pointer;
+	padding: 0.0625rem;
+}
+.fa-star.gold {
+	color: #06BACA;
+}
+.rating {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.stars {
+    display: inline-flex;
+    justify-content: center;
+}
+.card-body{
+    background-color: #cbf0f4;
+}
+.card-footer{
+    background-color: #cbf0f4;
+ 
+}
+
+
+
+.card-img-top:hover{
+    transform: scale(1.1); /* 150% zoom - Note: if the zoom is too large, it will go outside of the viewport */
+
+}
+.footer{
+    background-color:rgb(23 37 84 )
+    ;
+    
+}
+.row{
+    margin-top: 10%;
+}
+.team-item:hover img {
+    transform: scale(1.1);
+}
+
+
+.btn-sm-square{
+    color: #fff;
+    background-color: #06BACA;
+    border: none;
+
+}
+
+
+.btn-sm-square:hover{
+    color: #06BACA;
+    background-color: #FFFFFF;
+    border: none;
+
+}
+
+
+#expert-instru{
+    margin-top: -23px;
+}
+
+
+
+/*** Testimonial ***/
+
+/* Testimonial Carousel Overlay Gradient (Before and After) */
+.testimonial-carousel::before,
+.testimonial-carousel::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+}
+
+/* Testimonial Text Transition Effect */
+.testimonial-carousel .owl-item .testimonial-text,
+.testimonial-carousel .owl-item.center .testimonial-text * {
+    transition: .5s;
+}
+
+/* Testimonial Background Styles for Centered Item */
+.testimonial-carousel .owl-item.center .testimonial-text {
+    background: var(--primary) !important;
+}
+
+/* Testimonial Text Color Styles for Centered Item */
+.testimonial-carousel .owl-item.center .testimonial-text * {
+    color: #FFFFFF !important;
+}
+
+/* Dots Styles for Testimonial Carousel */
+.testimonial-carousel .owl-dots {
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* Dot Styles for Testimonial Carousel */
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #6c757d;
+    transition: .5s;
+}
+
+/* Active Dot Styles for Testimonial Carousel */
+.testimonial-carousel .owl-dot.active {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+
+
